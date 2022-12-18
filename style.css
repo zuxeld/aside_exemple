@@ -1,0 +1,121 @@
+.body{
+    
+    display: block;
+    /* position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0; */
+    /* max-height: 1000px; */
+    /* max-width: none; */
+    width: auto;
+    height: auto;
+
+    
+    
+}
+
+.main{
+    display: flex;
+    /* position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: -100%;
+    width: auto;
+    height: auto; */
+    justify-content: space-around;
+    align-items: baseline;
+    
+}
+.section {
+    /*
+    color: brown;
+    display: flex;
+    position: relative;
+    top: auto;
+    right: 30%;
+    left: 30%;
+    bottom: auto;
+    background-color:chocolate;
+
+    width: 20%;
+    height: 20%;
+
+    outline: 2px solid black;
+    text-align: center;
+    padding: 0;
+    border-radius: 20px;
+    */
+
+    /* color: brown; */
+    border-radius: 10px;
+    /* background-color: chocolate; */
+
+    display: flex;
+    /* width: 20%; */
+    /* height: 20%; */
+    /* outline: 2px solid black; */
+    /* text-align: center; */
+    align-items: center;
+    flex-grow: 1;
+    flex-direction:column;
+    justify-content:center;
+    /* flex-wrap: wrap; */
+    padding: 1em;
+    /* text-shadow: 0 0 10px rgb(0 0 0 / 50%); */
+    color: rgb(64 64 64);
+}
+
+.aside {
+    /*
+    display: flex;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    left: 60%;
+    bottom: 30%;
+    background-color:gold;
+
+    width: auto;
+    height: auto;
+
+    outline: 2px solid black;
+    text-align: center;
+    padding: 10%;
+    border-radius: 20px;
+    */
+
+    display: flex;
+    background-color: gainsboro;
+    /* width: 10%; */
+    /* height: 10%; */
+    /* outline: 1px solid black; */
+    /* outline-offset: -3px; */
+    border-radius: 10px;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 1em;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    text-align: right;
+}
+
+.header{
+    display: flex;
+    /* background-color:darkturquoise; */
+    /* width: 20%; */
+    /* height: 20%; */
+    /* outline: 2px solid black; */
+    /* text-align: center; */
+    border-radius: 10px;
+    align-items: center;
+    /* flex-grow: 10; */
+    justify-content: center;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 50%);
+    color: rgb(64 64 64);
+}
+
+p{
+    display: inline;
+}
