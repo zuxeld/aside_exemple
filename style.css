@@ -27,29 +27,34 @@
 }
 .section {
     border-radius: 10px;
-
-    /* display: flex; */
-    width: 80%;
-
     color: rgb(64 64 64);
     text-indent: 2em;
+    /* display: flex; */
+    /* width: 80%; */
+
+    
+
     text-align:justify;
 
-    margin: auto;
+    padding: 1em;
+
+    /* margin: auto; */
     
 }
 
 .aside {
     background-color: gainsboro;
-    width: 15%;
+    min-width: 30%;
+    width: 30%;
     
     border-radius: 10px 0 0 0;
     
     box-shadow: 0 0 10px rgb(0 0 0 / 50%);
     
     text-indent: 2em;
+    padding: 1em;
 
-    margin: auto;
+    /* margin: auto; */
 }
 
 .footer {
